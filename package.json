@@ -1,0 +1,19 @@
+{
+  "name": "tessel-homekit",
+  "version": "0.1.0",
+  "description": "Tessel Homekit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A Homekit accessory on Tessel",
+  "dependencies": {
+    "hap-nodejs": "git://github.com/manumaticx/HAP-NodeJS",
+    "node-persist": "^2.0.2"
+  }
+}
