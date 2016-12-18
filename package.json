@@ -4,7 +4,7 @@
   "description": "Tessel Homekit",
   "main": "index.js",
   "scripts": {
-    "start": "t2 run index.js",
+    "start": "t2 run index.js --full",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "www.github.com/tessel/t2-cli",
@@ -14,14 +14,13 @@
   "license": "MIT",
   "readme": "A Homekit accessory on Tessel",
   "dependencies": {
+    "buffer-shims": "^1.0.0",
     "curve25519-n": "^1.1.0",
     "debug": "^2.2.0",
     "ed25519": "^0.0.4",
+    "fast-srp-hap": "^1.0.0",
     "ip": "^1.1.3",
-    "mdns-js": "^0.5.0",
-    "node-persist": "^0.0.8",
-    "request": "^2.75.0",
-    "srp": "git://github.com/manumaticx/node-srp",
-    "node-persist": "^2.0.2"
+    "mdns": "^2.3.2",
+    "node-persist": "^0.0.8"
   }
 }
